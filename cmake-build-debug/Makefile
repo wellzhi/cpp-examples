@@ -155,6 +155,19 @@ cpp_examples/fast:
 .PHONY : cpp_examples/fast
 
 #=============================================================================
+# Target rules for targets named DLinkList
+
+# Build rule for target.
+DLinkList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DLinkList
+.PHONY : DLinkList
+
+# fast build rule for target.
+DLinkList/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLinkList.dir\build.make CMakeFiles/DLinkList.dir/build
+.PHONY : DLinkList/fast
+
+#=============================================================================
 # Target rules for targets named SingleLinkListNoHeader
 
 # Build rule for target.
@@ -218,6 +231,33 @@ Pointer-2: cmake_check_build_system
 Pointer-2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointer-2.dir\build.make CMakeFiles/Pointer-2.dir/build
 .PHONY : Pointer-2/fast
+
+DoubleLinkList/DLinkList.obj: DoubleLinkList/DLinkList.cpp.obj
+
+.PHONY : DoubleLinkList/DLinkList.obj
+
+# target to build an object file
+DoubleLinkList/DLinkList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLinkList.dir\build.make CMakeFiles/DLinkList.dir/DoubleLinkList/DLinkList.cpp.obj
+.PHONY : DoubleLinkList/DLinkList.cpp.obj
+
+DoubleLinkList/DLinkList.i: DoubleLinkList/DLinkList.cpp.i
+
+.PHONY : DoubleLinkList/DLinkList.i
+
+# target to preprocess a source file
+DoubleLinkList/DLinkList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLinkList.dir\build.make CMakeFiles/DLinkList.dir/DoubleLinkList/DLinkList.cpp.i
+.PHONY : DoubleLinkList/DLinkList.cpp.i
+
+DoubleLinkList/DLinkList.s: DoubleLinkList/DLinkList.cpp.s
+
+.PHONY : DoubleLinkList/DLinkList.s
+
+# target to generate assembly for a file
+DoubleLinkList/DLinkList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLinkList.dir\build.make CMakeFiles/DLinkList.dir/DoubleLinkList/DLinkList.cpp.s
+.PHONY : DoubleLinkList/DLinkList.cpp.s
 
 LinkList/SingleLinkListNoHeadNode.obj: LinkList/SingleLinkListNoHeadNode.cpp.obj
 
@@ -416,6 +456,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... DLinkList
 	@echo ... Pointer
 	@echo ... Pointer-2
 	@echo ... Pointer-3-NULL
@@ -423,6 +464,9 @@ help:
 	@echo ... SingleLinkListNoHeader
 	@echo ... SingleLinkListWithHeadNode
 	@echo ... cpp_examples
+	@echo ... DoubleLinkList/DLinkList.obj
+	@echo ... DoubleLinkList/DLinkList.i
+	@echo ... DoubleLinkList/DLinkList.s
 	@echo ... LinkList/SingleLinkListNoHeadNode.obj
 	@echo ... LinkList/SingleLinkListNoHeadNode.i
 	@echo ... LinkList/SingleLinkListNoHeadNode.s

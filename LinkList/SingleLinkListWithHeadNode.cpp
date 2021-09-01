@@ -7,7 +7,7 @@ typedef struct LNode {
 
 bool InitList(LinkList &L) {
     L = (LNode *) malloc(sizeof(LNode));
-    if (L == NULL) {
+    if (L == NULL) { // 内存不足
         return false;
     }
     L->next = NULL;
@@ -24,7 +24,7 @@ int main() {
     printf("", Empty(L));
 }
 
-//在第i个位置插入元素e（带头结点）
+//在第i个位置（位序）插入元素e（带头结点）
 bool ListInsert(LinkList &L, int i, int e) {
     if (i < 1) {
         return false;
