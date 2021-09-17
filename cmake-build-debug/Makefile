@@ -232,6 +232,46 @@ Pointer-2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointer-2.dir\build.make CMakeFiles/Pointer-2.dir/build
 .PHONY : Pointer-2/fast
 
+#=============================================================================
+# Target rules for targets named StaticSqlList
+
+# Build rule for target.
+StaticSqlList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 StaticSqlList
+.PHONY : StaticSqlList
+
+# fast build rule for target.
+StaticSqlList/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSqlList.dir\build.make CMakeFiles/StaticSqlList.dir/build
+.PHONY : StaticSqlList/fast
+
+01_SqlList/StaticSqlList.obj: 01_SqlList/StaticSqlList.cpp.obj
+
+.PHONY : 01_SqlList/StaticSqlList.obj
+
+# target to build an object file
+01_SqlList/StaticSqlList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSqlList.dir\build.make CMakeFiles/StaticSqlList.dir/01_SqlList/StaticSqlList.cpp.obj
+.PHONY : 01_SqlList/StaticSqlList.cpp.obj
+
+01_SqlList/StaticSqlList.i: 01_SqlList/StaticSqlList.cpp.i
+
+.PHONY : 01_SqlList/StaticSqlList.i
+
+# target to preprocess a source file
+01_SqlList/StaticSqlList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSqlList.dir\build.make CMakeFiles/StaticSqlList.dir/01_SqlList/StaticSqlList.cpp.i
+.PHONY : 01_SqlList/StaticSqlList.cpp.i
+
+01_SqlList/StaticSqlList.s: 01_SqlList/StaticSqlList.cpp.s
+
+.PHONY : 01_SqlList/StaticSqlList.s
+
+# target to generate assembly for a file
+01_SqlList/StaticSqlList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSqlList.dir\build.make CMakeFiles/StaticSqlList.dir/01_SqlList/StaticSqlList.cpp.s
+.PHONY : 01_SqlList/StaticSqlList.cpp.s
+
 DoubleLinkList/DLinkList.obj: DoubleLinkList/DLinkList.cpp.obj
 
 .PHONY : DoubleLinkList/DLinkList.obj
@@ -463,7 +503,11 @@ help:
 	@echo ... Pointer-4-array
 	@echo ... SingleLinkListNoHeader
 	@echo ... SingleLinkListWithHeadNode
+	@echo ... StaticSqlList
 	@echo ... cpp_examples
+	@echo ... 01_SqlList/StaticSqlList.obj
+	@echo ... 01_SqlList/StaticSqlList.i
+	@echo ... 01_SqlList/StaticSqlList.s
 	@echo ... DoubleLinkList/DLinkList.obj
 	@echo ... DoubleLinkList/DLinkList.i
 	@echo ... DoubleLinkList/DLinkList.s

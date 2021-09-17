@@ -59,4 +59,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/SingleLinkListWithHeadNode.dir/DependInfo.cmake"
   "CMakeFiles/Pointer.dir/DependInfo.cmake"
   "CMakeFiles/Pointer-2.dir/DependInfo.cmake"
+  "CMakeFiles/StaticSqlList.dir/DependInfo.cmake"
   )

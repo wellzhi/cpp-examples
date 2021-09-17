@@ -6,5 +6,6 @@ C:/java/c/cpp-examples/cmake-build-debug/CMakeFiles/Pointer-4-array.dir
 C:/java/c/cpp-examples/cmake-build-debug/CMakeFiles/SingleLinkListWithHeadNode.dir
 C:/java/c/cpp-examples/cmake-build-debug/CMakeFiles/Pointer.dir
 C:/java/c/cpp-examples/cmake-build-debug/CMakeFiles/Pointer-2.dir
+C:/java/c/cpp-examples/cmake-build-debug/CMakeFiles/StaticSqlList.dir
 C:/java/c/cpp-examples/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/java/c/cpp-examples/cmake-build-debug/CMakeFiles/rebuild_cache.dir

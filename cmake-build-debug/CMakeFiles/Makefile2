@@ -79,6 +79,7 @@ all: CMakeFiles/Pointer-4-array.dir/all
 all: CMakeFiles/SingleLinkListWithHeadNode.dir/all
 all: CMakeFiles/Pointer.dir/all
 all: CMakeFiles/Pointer-2.dir/all
+all: CMakeFiles/StaticSqlList.dir/all
 
 .PHONY : all
 
@@ -96,6 +97,7 @@ clean: CMakeFiles/Pointer-4-array.dir/clean
 clean: CMakeFiles/SingleLinkListWithHeadNode.dir/clean
 clean: CMakeFiles/Pointer.dir/clean
 clean: CMakeFiles/Pointer-2.dir/clean
+clean: CMakeFiles/StaticSqlList.dir/clean
 
 .PHONY : clean
 
@@ -133,7 +135,7 @@ CMakeFiles/Pointer-3-NULL.dir/clean:
 CMakeFiles/cpp_examples.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_examples.dir\build.make CMakeFiles/cpp_examples.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_examples.dir\build.make CMakeFiles/cpp_examples.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\java\c\cpp-examples\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target cpp_examples"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\java\c\cpp-examples\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target cpp_examples"
 .PHONY : CMakeFiles/cpp_examples.dir/all
 
 # Build rule for subdir invocation for target.
@@ -314,6 +316,33 @@ Pointer-2: CMakeFiles/Pointer-2.dir/rule
 CMakeFiles/Pointer-2.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointer-2.dir\build.make CMakeFiles/Pointer-2.dir/clean
 .PHONY : CMakeFiles/Pointer-2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/StaticSqlList.dir
+
+# All Build rule for target.
+CMakeFiles/StaticSqlList.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSqlList.dir\build.make CMakeFiles/StaticSqlList.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSqlList.dir\build.make CMakeFiles/StaticSqlList.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\java\c\cpp-examples\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target StaticSqlList"
+.PHONY : CMakeFiles/StaticSqlList.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/StaticSqlList.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\java\c\cpp-examples\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/StaticSqlList.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\java\c\cpp-examples\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/StaticSqlList.dir/rule
+
+# Convenience name for target.
+StaticSqlList: CMakeFiles/StaticSqlList.dir/rule
+
+.PHONY : StaticSqlList
+
+# clean rule for target.
+CMakeFiles/StaticSqlList.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSqlList.dir\build.make CMakeFiles/StaticSqlList.dir/clean
+.PHONY : CMakeFiles/StaticSqlList.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
