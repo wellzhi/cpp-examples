@@ -245,32 +245,32 @@ StaticSqlList/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSqlList.dir\build.make CMakeFiles/StaticSqlList.dir/build
 .PHONY : StaticSqlList/fast
 
-01_SqlList/StaticSqlList.obj: 01_SqlList/StaticSqlList.cpp.obj
+011_线性表_顺序表/StaticSqlList.obj: 011_线性表_顺序表/StaticSqlList.cpp.obj
 
-.PHONY : 01_SqlList/StaticSqlList.obj
+.PHONY : 011_线性表_顺序表/StaticSqlList.obj
 
 # target to build an object file
-01_SqlList/StaticSqlList.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSqlList.dir\build.make CMakeFiles/StaticSqlList.dir/01_SqlList/StaticSqlList.cpp.obj
-.PHONY : 01_SqlList/StaticSqlList.cpp.obj
+011_线性表_顺序表/StaticSqlList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSqlList.dir\build.make CMakeFiles/StaticSqlList.dir/011_线性表_顺序表/StaticSqlList.cpp.obj
+.PHONY : 011_线性表_顺序表/StaticSqlList.cpp.obj
 
-01_SqlList/StaticSqlList.i: 01_SqlList/StaticSqlList.cpp.i
+011_线性表_顺序表/StaticSqlList.i: 011_线性表_顺序表/StaticSqlList.cpp.i
 
-.PHONY : 01_SqlList/StaticSqlList.i
+.PHONY : 011_线性表_顺序表/StaticSqlList.i
 
 # target to preprocess a source file
-01_SqlList/StaticSqlList.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSqlList.dir\build.make CMakeFiles/StaticSqlList.dir/01_SqlList/StaticSqlList.cpp.i
-.PHONY : 01_SqlList/StaticSqlList.cpp.i
+011_线性表_顺序表/StaticSqlList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSqlList.dir\build.make CMakeFiles/StaticSqlList.dir/011_线性表_顺序表/StaticSqlList.cpp.i
+.PHONY : 011_线性表_顺序表/StaticSqlList.cpp.i
 
-01_SqlList/StaticSqlList.s: 01_SqlList/StaticSqlList.cpp.s
+011_线性表_顺序表/StaticSqlList.s: 011_线性表_顺序表/StaticSqlList.cpp.s
 
-.PHONY : 01_SqlList/StaticSqlList.s
+.PHONY : 011_线性表_顺序表/StaticSqlList.s
 
 # target to generate assembly for a file
-01_SqlList/StaticSqlList.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSqlList.dir\build.make CMakeFiles/StaticSqlList.dir/01_SqlList/StaticSqlList.cpp.s
-.PHONY : 01_SqlList/StaticSqlList.cpp.s
+011_线性表_顺序表/StaticSqlList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSqlList.dir\build.make CMakeFiles/StaticSqlList.dir/011_线性表_顺序表/StaticSqlList.cpp.s
+.PHONY : 011_线性表_顺序表/StaticSqlList.cpp.s
 
 DoubleLinkList/DLinkList.obj: DoubleLinkList/DLinkList.cpp.obj
 
@@ -505,9 +505,9 @@ help:
 	@echo ... SingleLinkListWithHeadNode
 	@echo ... StaticSqlList
 	@echo ... cpp_examples
-	@echo ... 01_SqlList/StaticSqlList.obj
-	@echo ... 01_SqlList/StaticSqlList.i
-	@echo ... 01_SqlList/StaticSqlList.s
+	@echo ... 011_线性表_顺序表/StaticSqlList.obj
+	@echo ... 011_线性表_顺序表/StaticSqlList.i
+	@echo ... 011_线性表_顺序表/StaticSqlList.s
 	@echo ... DoubleLinkList/DLinkList.obj
 	@echo ... DoubleLinkList/DLinkList.i
 	@echo ... DoubleLinkList/DLinkList.s

@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/java/c/cpp-examples/01_SqlList/StaticSqlList.cpp
+stdio.h
+C:/java/c/cpp-examples/01_SqlList/stdio.h
+
